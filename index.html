@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BHARATH-Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Barlow:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ───────────── NAV ───────────── -->
+  <nav id="navbar">
+    <div class="nav-logo">BR<span class="dot">.</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Work</a></li>
+      <li><a href="#contact" class="nav-link cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ───────────── HERO ───────────── -->
+  <section id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-red-panel"></div>
+
+    <div class="hero-tag reveal">Available for Freelance · 2026</div>
+
+    <div class="hero-content">
+      <!-- Left: text -->
+      <div class="hero-text-col">
+        <div class="hero-label reveal">Video Editor &amp; Creative Editor</div>
+
+        <h1 class="hero-name">
+          <span class="line-wrap reveal"><span class="line-inner stroke-text"> I'm </span></span>
+          <span class="line-wrap reveal delay-1"><span class="line-inner"> Bharath</span></span>
+        </h1>
+
+        <div class="hero-sub reveal delay-2">
+          <p>Crafting cinematic stories through<br>motion, colour &amp; raw creative instinct.</p>
+          <a href="#projects" class="btn-primary">View My Work</a>
+        </div>
+      </div>
+
+      <!-- Right: profile image -->
+      <div class="hero-profile-col reveal delay-1">
+        <div class="hero-profile-wrap">
+          <!--
+            TO USE YOUR OWN PHOTO:
+            Replace the placeholder div below with:
+            <img src="your-photo.jpg" alt="Your Name" class="hero-profile-img" />
+          -->
+          <div class="hero-profile-placeholder">
+            <img src="pic.jpeg" alt="Bharath" class="hero-profile-img" />
+            <svg>
+            </svg>
+
+          </div>
+          <div class="hero-profile-border"></div>
+          <div class="hero-profile-badge">Video - Editor</div>
+          <div class="hero-software-icons">
+            <div class="hero-software-icon" title="Adobe Premiere Pro">Pr</div>
+            <div class="hero-software-icon ae" title="Adobe After Effects">Ae</div>
+            <div class="hero-software-icon ps" title="Adobe Photoshop">Ps</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint reveal delay-3">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+
+    <!-- TORN BOTTOM EDGE -->
+    <div class="torn-edge torn-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,80 L0,40 C60,55 100,20 160,38 C220,56 270,10 340,30 C410,50 450,15 520,35 C590,55 630,8 700,28 C770,48 820,12 890,32 C960,52 1000,5 1080,25 C1160,45 1200,10 1270,30 C1320,44 1380,18 1440,36 L1440,80 Z"
+          fill="#0d0d0d" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ───────────── ABOUT ───────────── -->
+  <section id="about">
+    <div class="torn-edge torn-top">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,0 L0,42 C70,28 110,65 180,45 C250,25 300,68 370,48 C440,28 490,72 560,52 C630,32 680,75 750,55 C820,35 870,78 940,58 C1010,38 1060,72 1130,52 C1200,32 1250,65 1320,45 C1370,30 1410,55 1440,40 L1440,0 Z"
+          fill="#111111" />
+      </svg>
+    </div>
+
+    <div class="section-inner about-grid">
+      <div class="about-text reveal">
+        <span class="section-label">— About Me</span>
+        <h2 class="section-heading">Visual<br><span class="red">Story</span>Editor.</h2>
+        <p>Clean & Bold
+          I don't just edit videos — I craft emotions. Specializing in weddings, reels, and cinematic edits that hit
+          different.
+        </p>
+        <p>My work lives at the intersection of technical precision and raw creative instinct. Every cut is intentional.
+          Every colour grade, a deliberate mood.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">50<span class="red">+</span></span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">2<span class="red">+</span></span>
+            <span class="stat-label">Years Exp.</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">20<span class="red">+</span></span>
+            <span class="stat-label">Clients</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual reveal delay-1">
+        <div class="about-img-frame">
+          <div class="about-img-placeholder">
+            <img src="IMG_3165-01.jpeg">
+          </div>
+          <div class="about-img-border"></div>
+          <div class="about-img-tag">Creative · Editor</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="torn-edge torn-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,80 L0,38 C80,55 120,18 200,38 C280,58 320,12 400,32 C480,52 530,8 610,28 C690,48 730,5 810,25 C890,45 940,10 1020,30 C1100,50 1140,8 1220,28 C1300,48 1360,20 1440,38 L1440,80 Z"
+          fill="#0a0a0a" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ───────────── SKILLS ───────────── -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="skills-header reveal">
+        <span class="section-label">— My Arsenal</span>
+        <h2 class="section-heading">Software<br><span class="red">Profi</span>ciency.</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card skill-featured reveal">
+          <div class="skill-icon">Pr</div>
+          <div class="skill-info">
+            <h3>Adobe Premiere Pro</h3>
+            <p>Primary NLE for all long-form and commercial edits. Expert-level timeline management, multicam, and
+              colour workflow.</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="96">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <span class="skill-pct">96%</span>
+            </div>
+          </div>
+          <div class="skill-card-num">01</div>
+        </div>
+
+        <div class="skill-card skill-featured reveal delay-1">
+          <div class="skill-icon ae">Ae</div>
+          <div class="skill-info">
+            <h3>Adobe After Effects</h3>
+            <p>Video Editing, . Motion graphics, . Camera Editing. From subtle overlays to full-blown title
+            </p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="90">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <span class="skill-pct">90%</span>
+            </div>
+          </div>
+          <div class="skill-card-num">02</div>
+        </div>
+
+        <div class="skill-card skill-featured reveal delay-2">
+          <div class="skill-icon ps">Ps</div>
+          <div class="skill-info">
+            <h3>Adobe Photoshop</h3>
+            <p>Advanced photo editing, compositing, and retouching. High-end image manipulation and graphic design.</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="85">
+                <div class="skill-bar-fill"></div>
+              </div>
+              <span class="skill-pct">85%</span>
+            </div>
+          </div>
+          <div class="skill-card-num">03</div>
+        </div>
+
+        <div class="skill-tags-wrap reveal delay-3">
+          <span class="section-label">Also Proficient In</span>
+          <div class="skill-tags">
+            <span>Developer</span>
+            <span>Web landing page</span>
+            <span>Figma</span>
+            <span>Product Posters </span>
+            <span>AD Editing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="torn-edge torn-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,80 L0,45 C50,30 110,65 190,45 C270,25 310,70 390,50 C470,30 510,72 590,52 C670,32 710,68 790,48 C870,28 920,72 1000,52 C1080,32 1120,66 1200,46 C1280,26 1360,58 1440,40 L1440,80 Z"
+          fill="#0a0a0a" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ───────────── PROJECTS ───────────── -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="projects-header reveal">
+        <span class="section-label">— Selected Work</span>
+        <h2 class="section-heading">The<br><span class="red">Reel.</span></h2>
+        <p class="projects-sub">Recent commercial, branded, and personal projects.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal" data-index="01">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: #000;">
+              <img src="https://img.youtube.com/vi/r7aXxT8nONE/maxresdefault.jpg" alt="Project Thumbnail"
+                style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+            </div>
+            <div class="project-overlay">
+              <span class="project-play">▶ Play</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-num">01</span>
+            <div>
+              <h3>Brand Commercial</h3>
+              <p> Wall sticker · After Effects </p>
+            </div>
+            <span class="project-arrow">→</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1" data-index="02">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: #1a0505;">
+              <img src="https://img.youtube.com/vi/x_idm0DTf5E/hqdefault.jpg" alt="Project Thumbnail"
+                style="width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.8); pointer-events: none;">
+            </div>
+            <div class="project-overlay">
+              <span class="project-play">▶ Play</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-num">02</span>
+            <div>
+              <h3>Travel Memory Edit</h3>
+              <p> Multiple Vertical Video Edit · Premiere Pro</p>
+            </div>
+            <span class="project-arrow">→</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2" data-index="03">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: #050510;">
+              <img src="https://img.youtube.com/vi/7mP8-GfJcqs/hqdefault.jpg" alt="Project Thumbnail"
+                style="width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.8); pointer-events: none;">
+            </div>
+            <div class="project-overlay">
+              <span class="project-play">▶ Play</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-num">03</span>
+            <div>
+              <h3>GYM Reel Edit</h3>
+              <p>After Effects · Using Transitions</p>
+            </div>
+            <span class="project-arrow">→</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-1" data-index="04">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: #0a0505;">
+              <img src="https://img.youtube.com/vi/HCpikfbJYBw/hqdefault.jpg" alt="Project Thumbnail"
+                style="width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.8); pointer-events: none;">
+            </div>
+            <div class="project-overlay">
+              <span class="project-play">▶ Play</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-num">04</span>
+            <div>
+              <h3>Social Media Influencer</h3>
+              <p>Pandian Vilas · Premiere Pro</p>
+            </div>
+            <span class="project-arrow">→</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2" data-index="05">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: #060010;">
+              <img src="https://img.youtube.com/vi/fTUxFd4FeWU/hqdefault.jpg" alt="Project Thumbnail"
+                style="width: 100%; height: 100%; object-fit: cover; object-position: center top; pointer-events: none;">
+            </div>
+            <div class="project-overlay">
+              <span class="project-play">▶ Play</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-num">05</span>
+            <div>
+              <h3>using SFX Video for reel</h3>
+              <p>Colour-graded narrative · Premiere Pro</p>
+            </div>
+            <span class="project-arrow">→</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3" data-index="06">
+          <div class="project-thumb">
+            <div class="thumb-placeholder" style="background: #080808;">
+              <img src="https://img.youtube.com/vi/Vh2T0WlH30M/hqdefault.jpg" alt="Project Thumbnail"
+                style="width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.8); pointer-events: none;">
+            </div>
+            <div class="project-overlay">
+              <span class="project-play">▶ Play</span>
+            </div>
+          </div>
+          <div class="project-meta">
+            <span class="project-num">06</span>
+            <div>
+              <h3>Trip Edit</h3>
+              <p>Memory Long-form narrative · Premiere Pro</p>
+            </div>
+            <span class="project-arrow">→</span>
+          </div>
+        </div>
+
+      </div><!-- /projects-grid -->
+    </div>
+
+    <div class="torn-edge torn-bottom">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,80 L0,40 C60,55 100,20 180,38 C260,56 300,10 380,30 C460,50 500,8 580,28 C660,48 700,5 780,25 C860,45 900,5 980,25 C1060,45 1100,10 1180,30 C1260,50 1340,15 1440,35 L1440,80 Z"
+          fill="#111111" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ───────────── CONTACT ───────────── -->
+  <section id="contact">
+    <div class="torn-edge torn-top">
+      <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0,0 L0,45 C80,28 130,65 210,45 C290,25 340,68 420,48 C500,28 550,72 630,52 C710,32 760,75 840,55 C920,35 970,78 1050,58 C1130,38 1180,72 1260,52 C1340,32 1390,58 1440,40 L1440,0 Z"
+          fill="#0a0a0a" />
+      </svg>
+    </div>
+
+    <div class="section-inner contact-inner">
+      <div class="contact-left reveal">
+        <span class="section-label">— Let's Create</span>
+        <h2 class="section-heading contact-heading">Got a<br><span class="red">Project?</span></h2>
+        <p>Open for freelance projects, brand collabs, and full-time opportunities. Let's make something unforgettable.
+        </p>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bharathraje20@gmail.com" target="_blank"
+          class="btn-primary">bharathraje20@gmail.com</a>
+      </div>
+
+      <div class="contact-right reveal delay-1">
+        <div class="contact-links">
+          <a href="https://www.instagram.com/insane_bharath?igsh=emxxdG9oMnhxZnR5" target="_blank"
+            class="contact-social">
+            <span class="social-platform">Instagram</span>
+            <span class="social-handle">@insane_bharath →</span>
+          </a>
+          <a href="https://linkedin.com/in/bharath-raj-ba32852a1" target="_blank" class="contact-social">
+            <span class="social-platform">LinkedIn</span>
+            <span class="social-handle">in/bharath-raj →</span>
+          </a>
+          <a href="https://github.com/bharathraj1924" target="_blank" class="contact-social">
+            <span class="social-platform">Github</span>
+            <span class="social-handle">bharathraj1924 →</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <span class="footer-logo">BR<span class="red">.</span></span>
+        <span class="footer-copy">© 2026 Bharath. All rights reserved.</span>
+        <a href="#hero" class="back-to-top">↑ Back to top</a>
+      </div>
+    </footer>
+  </section>
+
+  <!-- ───────────── LIGHTBOX MODAL ───────────── -->
+  <div class="lightbox-overlay" id="lightboxOverlay">
+    <div class="lightbox-box" id="lightboxBox">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+      <div class="lightbox-thumb" style="display: flex; background: #000; overflow: hidden;">
+        <video id="lightboxVideo" src="" controls playsinline
+          style="width: 100%; height: 100%; object-fit: contain; display: none;"></video>
+        <iframe id="lightboxYoutube" src="" frameborder="0" allow="autoplay; fullscreen"
+          style="width: 100%; height: 100%; display: none;"></iframe>
+      </div>
+      <div class="lightbox-info">
+        <h3 id="lightboxTitle">Project Title</h3>
+        <p id="lightboxDesc">Project description goes here.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
