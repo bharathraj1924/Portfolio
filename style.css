@@ -1107,9 +1107,10 @@ section {
     gap: 2.5rem;
   }
   .hero-red-panel { width: 100%; height: 280px; top: auto; bottom: 0; clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%); }
-  .hero-profile-col { justify-content: center; }
+  .hero-profile-col { justify-content: center; padding-bottom: 2rem; }
   .hero-profile-wrap { width: min(260px, 70vw); margin: 0 auto; }
-  .hero-profile-badge { left: 0; }
+  .hero-profile-badge { left: 50%; transform: translateX(-50%); bottom: -20px; }
+  .hero-scroll-hint { bottom: 20px; left: 1.5rem; }
   .hero-sub { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
   .hero-tag { display: none; }
 
