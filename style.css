@@ -992,6 +992,19 @@ section {
 
 .contact-heading { margin-bottom: 1.5rem; }
 
+.whatsapp-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin-left: 0.75rem;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+.whatsapp-icon:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 8px rgba(37, 211, 102, 0.6));
+}
+
 .contact-links { display: flex; flex-direction: column; gap: 0.25rem; padding-top: 2.5rem; }
 
 .contact-social {
